@@ -1,0 +1,215 @@
+body {
+  font-family: "Poppins", sans-serif;
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.hlavicka {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #1b1f24;
+  padding: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  color: #12bdff;
+  margin-right: 130px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.odkaz-menu {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 30px;
+  transition: all 0.3s ease 0s;
+}
+
+.odkaz-menu:hover {
+  color: #12bdff;
+}
+
+.uvod {
+  background-color: #1b1f24;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 100px 120px 50px 200px;
+}
+
+.uvodni-nadpis {
+  font-size: 48px;
+}
+
+.zvyrazneni {
+  color: #12bdff;
+}
+
+.uvodni-popis {
+  color: #c4c4c4;
+  margin-right: 100px;
+}
+
+.uvodni-obrazek img {
+  margin-left: 30px;
+  border-radius: 15px;
+}
+
+.socialni-site {
+  margin: 18px 0;
+  list-style: none;
+  display: flex;
+   padding-left: 0px !important;
+}
+
+.socialni-site li {
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 1px solid #12bdff;
+  padding: 8px 12px;
+}
+
+.socialni-site li:hover {
+  background-color: #12bdff;
+}
+
+.socialni-site a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.3s ease 0s;
+}
+
+.uvodni-tlacitka button {
+  margin-right: 10px;
+}
+
+.tlacitko-hlavni {
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: #12bdff;
+  color: black;
+  font-weight: 600;
+  transition: all 0.3s ease 0s;
+}
+
+.tlacitko-hlavni:hover {
+  background-color: #0c8ec2;
+}
+
+.tlacitko-obrys {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #12bdff;
+  background-color: #12bdff;
+  color: #12bdff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.tlacitko-obrys:hover {
+  background-color: #12bdff;
+  color: #fff ;
+}
+
+.o-mne {
+  background-color: #22282f;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.moje-fotka img {
+  width: 250px;
+  height: 250px;
+  padding: 2px;
+  border-radius: 50%;
+  border: 3px solid #12bdff;
+  box-shadow: 3px 5px 30px #03506e;
+  object-fit: cover;
+}
+
+.o-mne-obsah {
+  margin-left: 100px;
+  max-width: 600px;
+}
+
+.o-mne-nadpis {
+  font-size: 33px;
+}
+
+.o-mne-text {
+  color: #c4c4c4;
+  font-size: 15px;
+}
+
+.projekty {
+  background-color: #1b1f24;
+  color: #fff;
+  padding: 50px 120px;
+}
+
+.seznam-projektu {
+  display: flex;
+}
+
+.projekt {
+  width: 33.33%;
+  margin: 35px 10px;
+  padding: 33px;
+  background-color: #22282f;
+  border-radius: 5px;
+  transition: all 0.5s ease 0s;
+}
+
+.projekt:hover {
+  box-shadow: 3px 5px 20px #03506e;
+  transform: translateY(-2px);
+}
+
+.projekt-ikona i {
+  font-size: 30px;
+  border-radius: 50%;
+  border: 1px solid #12bdff;
+  padding: 20px;
+}
+
+.projekt-popis h4 {
+  font-size: 18px;
+  margin: 18px 0 10px 0;
+}
+
+.projekt-popis p {
+  font-size: 14px;
+  color: #c4c4c4;
+}
+
+.projekt-tlacitka {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
